@@ -1,4 +1,6 @@
 <?php
+    add_action('wp_enqueue_scripts', 'portfolio_files');
+
     function portfolio_files() {
         wp_enqueue_script('main-portfolio-js', get_theme_file_uri('/build/index.js'), array('jquery'), '1.0', true);
         wp_enqueue_style('custom-fonts', '//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
@@ -32,5 +34,14 @@
         ));
     }
 
-    add_action('wp_enqueue_scripts', 'portfolio_files');
+    /*
+    * @method portfolio_features automatically generates the page title
+    */
+    add_action('after_setup_theme', 'portfolio_features');
+
+    function portfolio_features() {
+        add_theme_support('title-tag');
+        add_theme_support('post-thumbnails');                   // enables wordpress to show featured image and post edits
+        add_image_size('pageBanner', 1200, 480, true);
+    }
 ?>
