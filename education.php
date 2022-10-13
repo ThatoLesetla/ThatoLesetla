@@ -64,169 +64,28 @@
 					</div>
 					</div>
 					<div id="page-3" class= "page three">
-					<h2 class="heading">Skills</h2>
-					<div class="row progress-circle mb-5">
-						<div class="col-lg-4 mb-4">
-							<div class="bg-white rounded-lg shadow p-4">
-							<h2 class="h5 font-weight-bold text-center mb-4">Backend Development </h2>
-
-							<!-- Progress bar 1 -->
-							<div class="progress mx-auto" data-value='90'>
-								<span class="progress-left">
-					<span class="progress-bar border-primary"></span>
-								</span>
-								<span class="progress-right">
-					<span class="progress-bar border-primary"></span>
-								</span>
-								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
-								</div>
-							</div>
-							<!-- END -->
-
-							<!-- Demo info -->
-							<div class="row text-center mt-4">
-								<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-								</div>
-								<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-								</div>
-							</div>
-							<!-- END -->
-							</div>
-						</div>
-
-						<div class="col-lg-4 mb-4">
-							<div class="bg-white rounded-lg shadow p-4">
-							<h2 class="h5 font-weight-bold text-center mb-4">Frontend Development</h2>
-
-							<!-- Progress bar 1 -->
-							<div class="progress mx-auto" data-value='80'>
-								<span class="progress-left">
-					<span class="progress-bar border-primary"></span>
-								</span>
-								<span class="progress-right">
-					<span class="progress-bar border-primary"></span>
-								</span>
-								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
-								</div>
-							</div>
-							<!-- END -->
-
-							<!-- Demo info -->
-							<div class="row text-center mt-4">
-								<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-								</div>
-								<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-								</div>
-							</div>
-							<!-- END -->
-							</div>
-						</div>
-
-						<div class="col-lg-4 mb-4">
-							<div class="bg-white rounded-lg shadow p-4">
-							<h2 class="h5 font-weight-bold text-center mb-4">DevOps / Cloud Computing</h2>
-
-							<!-- Progress bar 1 -->
-							<div class="progress mx-auto" data-value='75'>
-								<span class="progress-left">
-					<span class="progress-bar border-primary"></span>
-								</span>
-								<span class="progress-right">
-					<span class="progress-bar border-primary"></span>
-								</span>
-								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">2<sup class="small">yrs</sup></div>
-								</div>
-							</div>
-							<!-- END -->
-
-							<!-- Demo info -->
-							<div class="row text-center mt-4">
-								<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">3yrs</div><span class="small text-gray">Last week</span>
-								</div>
-								<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">3yrs</div><span class="small text-gray">Last month</span>
-								</div>
-							</div>
-							<!-- END -->
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>ASP.NET Core</h3>
-									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-										aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										<span>90%</span>
+						<h2 class="heading">Skills</h2>
+						<section class="ftco-section ftco-partner">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm ftco-animate">
+											<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-1.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
+										</div>
+										<div class="col-sm ftco-animate">
+											<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-2.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
+										</div>
+										<div class="col-sm ftco-animate">
+											<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-3.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
+										</div>
+										<div class="col-sm ftco-animate">
+											<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-4.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
+										</div>
+										<div class="col-sm ftco-animate">
+											<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-5.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>C#</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-										aria-valuemin="0" aria-valuemax="100" style="width:85%">
-										<span>3 yrs</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Angular</h3>
-									<div class="progress">
-										<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-										aria-valuemin="0" aria-valuemax="100" style="width:95%">
-										<span>3 yrs</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>CSS3</h3>
-									<div class="progress">
-										<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-										aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										<span>3 yrs</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>WordPress</h3>
-									<div class="progress">
-										<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-										aria-valuemin="0" aria-valuemax="100" style="width:70%">
-										<span>3 yrs</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>C#</h3>
-									<div class="progress">
-										<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-										aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										<span>3 yrs</span>
-										</div>
-									</div>
-								</div>
-							</div>
-					</div>
+							</section>
 					</div>
 					<div id="page-4" class= "page four">
 					<h2 class="heading">Certifications & Awards</h2>
