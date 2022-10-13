@@ -2,9 +2,8 @@
 	get_header();
 
     while(have_posts()) {
-        the_post();
-
-        ?>
+      the_post();
+    ?>
     <div class="hero-wrap js-fullheight">
       <div class="overlay"></div>
       <div class="container">
@@ -36,86 +35,28 @@
 
 
             <div class="pt-5 mt-5">
-              <h3 class="mb-5">6 Comments</h3>
+              <h3 class="mb-5"><?= $currentPost->comment_count; ?> Comments</h3>
               <ul class="comment-list">
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">Sept. 12, 2019 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
+                <?php
+                  $comments = get_comments();
 
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">Sept. 12, 2019 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
+                  foreach ($comments as $comment) {
 
-                  <ul class="children">
-                    <li class="comment">
-                      <div class="vcard bio">
-                        <img src="images/person_1.jpg" alt="Image placeholder">
-                      </div>
-                      <div class="comment-body">
-                        <h3>John Doe</h3>
-                        <div class="meta">Sept. 12, 2019 at 2:21pm</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                        <p><a href="#" class="reply">Reply</a></p>
-                      </div>
-
-
-                      <ul class="children">
-                        <li class="comment">
-                          <div class="vcard bio">
-                            <img src="images/person_1.jpg" alt="Image placeholder">
-                          </div>
-                          <div class="comment-body">
-                            <h3>John Doe</h3>
-                            <div class="meta">Sept. 12, 2019 at 2:21pm</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                            <p><a href="#" class="reply">Reply</a></p>
-                          </div>
-
-                            <ul class="children">
-                              <li class="comment">
-                                <div class="vcard bio">
-                                  <img src="images/person_1.jpg" alt="Image placeholder">
-                                </div>
-                                <div class="comment-body">
-                                  <h3>John Doe</h3>
-                                  <div class="meta">Sept. 12, 2019 at 2:21pm</div>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                                  <p><a href="#" class="reply">Reply</a></p>
-                                </div>
-                              </li>
-                            </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img src="images/person_1.jpg" alt="Image placeholder">
-                  </div>
-                  <div class="comment-body">
-                    <h3>John Doe</h3>
-                    <div class="meta">Sept. 12, 2019 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
+                    ?>
+                      <li class="comment">
+                        <div class="vcard bio">
+                          <img src="images/person_1.jpg" alt="Image placeholder">
+                        </div>
+                        <div class="comment-body">
+                          <h3>John Doe</h3>
+                          <div class="meta">Sept. 12, 2019 at 2:21pm</div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                          <p><a href="#" class="reply">Reply</a></p>
+                        </div>
+                      </li>
+                    <?php
+                  }
+                ?>
               </ul>
               <!-- END comment-list -->
               
@@ -160,70 +101,41 @@
             <div class="sidebar-box ftco-animate">
             	<h3 class="heading-sidebar">Categories</h3>
               <ul class="categories">
-                <li><a href="#">Interior Design <span>(12)</span></a></li>
-                <li><a href="#">Exterior Design <span>(22)</span></a></li>
-                <li><a href="#">Industrial Design <span>(37)</span></a></li>
-                <li><a href="#">Landscape Design <span>(42)</span></a></li>
+                <?php 
+                  $categories = get_categories();
+
+                  foreach($categories as $category) {
+                    ?>
+                      <li><a href="<?= get_category_link($category->term_id) ?>"><?= $category->name ?><span>(12)</span></a></li>
+                    <?php
+                  }
+                ?>
               </ul>
             </div>
 
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Recent Blog</h3>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> March 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> March 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> March 12, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <?php
+                $posts = get_posts();
 
-            <div class="sidebar-box ftco-animate">
-              <h3 class="heading-sidebar">Tag Cloud</h3>
-              <div class="tagcloud">
-                <a href="#" class="tag-cloud-link">house</a>
-                <a href="#" class="tag-cloud-link">office</a>
-                <a href="#" class="tag-cloud-link">building</a>
-                <a href="#" class="tag-cloud-link">land</a>
-                <a href="#" class="tag-cloud-link">table</a>
-                <a href="#" class="tag-cloud-link">interior</a>
-                <a href="#" class="tag-cloud-link">exterior</a>
-                <a href="#" class="tag-cloud-link">industrial</a>
-              </div>
-            </div>
-
-            <div class="sidebar-box ftco-animate">
-              <h3 class="heading-sidebar">Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+                foreach ($posts as $post) {
+                  ?>
+                    <div class="block-21 mb-4 d-flex">
+                      <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                      <div class="text">
+                        <h3 class="heading"><a href="#"><?= $post->post_title ?></a></h3>
+                        <div class="meta">
+                          <div><a href="#"><span class="icon-calendar"></span> <?= $post->post_date ?></a></div>
+                          <div><a href="#"><span class="icon-person"></span> <?= $post->post_author ?></a></div>
+                          <div><a href="#"><span class="icon-chat"></span> <?= $post->comment_count ?></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  <?php
+                }
+              ?>
             </div>
           </div>
-
         </div>
       </div>
     </section> <!-- .section -->

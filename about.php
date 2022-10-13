@@ -13,8 +13,12 @@
 				<div class="col-md-12 heading-section ftco-animate">
 				<h1 class="big">About</h1>
 				<h2 class="mb-4">About Me</h2>
-				<p>Software engineer leveraging consistent experience in banking using technology to help organizations expand their impact. Have worked collaboratively on 
-					projects to upgrade technical platforms, integrate new technology, and facilitate training with organization users.</p>
+				<p>Software engineer leveraging consistent experience in banking using technology to help organizations expand their impact. 
+					Have worked collaboratively on projects to upgrade technical platforms, integrate new technology, and facilitate training 
+					with organization users. Strong interpersonal and communication skills make me an invaluable team member. Recently earned a 
+					AWS Developer associate certificate to hone skills in software development and cloud computing. Enjoy cross-functional team efforts,
+					 taking on new challenges, and using technical skills to make positive impacts.
+				</p>
 				<ul class="about-info mt-4 px-md-0 px-2">
 					<li class="d-flex"><span>Name:</span> <span>Thato Lesetla</span></li>
 					<li class="d-flex"><span>Date of birth:</span> <span>May 6, 1998</span></li>
@@ -26,36 +30,14 @@
 			</div>
 			<div class="counter-wrap ftco-animate d-flex mt-md-3">
 			<div class="text">
-			<!-- <p class="mb-4">
-				<span class="number" data-number="120">0</span>
-				<span>Project complete</span>
-			</p> -->
-			<p><a href="https://thatolesetla.com/ThatoLesetla_compressed.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+			<p class="mb-4">
+				<span class="number" data-number="20">0</span>
+				<span>Systems developed</span>
+			</p> 
+			<p><a href="https://thatolesetla.com/ThatoLesetla_compressed.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p>
 			</div>
 			</div>
 		</div>
 	</div>
 	</div>
 </section>
-
-<!-- <section class="ftco-section ftco-partner">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm ftco-animate">
-				<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-1.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
-			</div>
-			<div class="col-sm ftco-animate">
-				<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-2.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
-			</div>
-			<div class="col-sm ftco-animate">
-				<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-3.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
-			</div>
-			<div class="col-sm ftco-animate">
-				<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-4.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
-			</div>
-			<div class="col-sm ftco-animate">
-				<a href="#" class="partner"><img src="<?php echo get_theme_file_uri('/images/partner-5.png') ?>" class="img-fluid" alt="Colorlib Template"></a>
-			</div>
-		</div>
-	</div>
-</section> -->

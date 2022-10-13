@@ -86,15 +86,43 @@
 		<div class="col-md-12 heading-section text-center ftco-animate">
 		<h1 class="big big-2">Projects</h1>
 		<h2 class="mb-4">My Projects</h2>
-		<p>Most projects I've built are to help me explore different technologies e.g building microservices, enterprise applications & realtime applications</p>
+		<p>I have worked on projects for big companies such as Absa focusing on building enterprise applications.</p>
+		<p>I also build hobby projects that help me explore different technologies e.g building microservices, enterprise applications & realtime applications</p>
 		</div>
 	</div>
 		<div class="row no-gutters">
 			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work-7.jpg') ?>);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://readytowork.absa.africa/#/" target="_blank">Absa ReadyToWork</a></h3>
+						<span>Frontend & Backend Developer</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work-8.jpg') ?>);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://latelier.absa.africa/" target="_blank">Absa L'Atelier</a></h3>
+						<span>Frontend & Backend Developer</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work-10.jpg') ?>);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="#" target="_blank">Byway Ride Sharing</a></h3>
+						<span>Web Development</span>
+					</div>
+				</div>
+			</div> 
+			<div class="col-md-4">
 				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work.png') ?>);">
 					<div class="overlay"></div>
 					<div class="text text-center p-4">
-						<h3><a href="http://agricode.co.za" target="_blank">Agricode Portal</a></h3>
+						<h3><a href="https://www.youtube.com/watch?v=7nbMOE2iC2Y" target="_blank">Agricode Portal</a></h3>
 						<span>Web Development</span>
 					</div>
 				</div>
@@ -103,7 +131,7 @@
 				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work1.png') ?>);">
 					<div class="overlay"></div>
 					<div class="text text-center p-4">
-						<h3><a href="http://culturestore.co.za">Culturestore</a></h3>
+						<h3><a href="http://culturestore.co.za" target="_blank">Culturestore</a></h3>
 						<span>Web Development</span>
 					</div>
 				</div>
@@ -113,38 +141,11 @@
 				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work2.jpeg') ?>);">
 					<div class="overlay"></div>
 					<div class="text text-center p-4">
-						<h3><a href="http://culturemusic.co.za">Culturemusic</a></h3>
+						<h3><a href="http://culturemusic.co.za" target="_blank">Culturemusic</a></h3>
 						<span>Web Development</span>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-md-4">
-				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work-4.jpg') ?>);">
-					<div class="overlay"></div>
-					<div class="text text-center p-4">
-						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-						<span>Web Design</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work-5.jpg') ?>);">
-					<div class="overlay"></div>
-					<div class="text text-center p-4">
-						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-						<span>Web Design</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(<?php echo get_theme_file_uri('/images/work-6.jpg') ?>);">
-					<div class="overlay"></div>
-					<div class="text text-center p-4">
-						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-						<span>Web Design</span>
-					</div>
-				</div>
-			</div> -->
 		</div>
 	</div>
 </section>

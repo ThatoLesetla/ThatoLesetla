@@ -7,9 +7,9 @@
               <h2 class="ftco-heading-2">About</h2>
               <p>I’m an enthusiastic software engineer, who loves challenges, newest technologies and programming at all.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://twitter.com/lesetla_thato"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.linkedin.com/in/thato-lesetla-291662140"><span class="icon-linkedin"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/moneybag.csa/"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com/lesetla_thato" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/thato-lesetla-291662140" target="_blank"><span class="icon-linkedin"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.github.com/thatolesetla" target="_blank"><span class="icon-github"></span></a></li>
               </ul>
             </div>
           </div>
@@ -25,7 +25,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          <!-- <div class="col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
@@ -36,7 +36,7 @@
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -54,7 +54,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>. Downloaded from <a href="https://themeslab.org/" target="_blank">Themeslab</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>

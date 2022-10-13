@@ -141,7 +141,7 @@
 					<span class="progress-bar border-primary"></span>
 								</span>
 								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">55<sup class="small">%</sup></div>
+								<div class="h2 font-weight-bold">2<sup class="small">yrs</sup></div>
 								</div>
 							</div>
 							<!-- END -->
@@ -149,10 +149,10 @@
 							<!-- Demo info -->
 							<div class="row text-center mt-4">
 								<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+								<div class="h4 font-weight-bold mb-0">3yrs</div><span class="small text-gray">Last week</span>
 								</div>
 								<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+								<div class="h4 font-weight-bold mb-0">3yrs</div><span class="small text-gray">Last month</span>
 								</div>
 							</div>
 							<!-- END -->
@@ -177,7 +177,7 @@
 									<div class="progress">
 										<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
 										aria-valuemin="0" aria-valuemax="100" style="width:85%">
-										<span>85%</span>
+										<span>3 yrs</span>
 										</div>
 									</div>
 								</div>
@@ -188,7 +188,7 @@
 									<div class="progress">
 										<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
 										aria-valuemin="0" aria-valuemax="100" style="width:95%">
-										<span>95%</span>
+										<span>3 yrs</span>
 										</div>
 									</div>
 								</div>
@@ -199,7 +199,7 @@
 									<div class="progress">
 										<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
 										aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										<span>90%</span>
+										<span>3 yrs</span>
 										</div>
 									</div>
 								</div>
@@ -210,7 +210,7 @@
 									<div class="progress">
 										<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
 										aria-valuemin="0" aria-valuemax="100" style="width:70%">
-										<span>70%</span>
+										<span>3 yrs</span>
 										</div>
 									</div>
 								</div>
@@ -221,7 +221,7 @@
 									<div class="progress">
 										<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
 										aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										<span>80%</span>
+										<span>3 yrs</span>
 										</div>
 									</div>
 								</div>
@@ -230,6 +230,18 @@
 					</div>
 					<div id="page-4" class= "page four">
 					<h2 class="heading">Certifications & Awards</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2021-2022</span>
+							<h2>Project Management Foundations</h2>
+							<span class="position">University of Cape Town</span>
+							<p>During this course I was able to gain knowledge, skills, tools, and techniques to project activities to meet the project requirements and the ability to manage the people, processes, and </p>
+							<p>business priorities of a professional project.</p>
+						</div>
+					</div>
 					<div class="resume-wrap d-flex ftco-animate">
 						<div class="icon d-flex align-items-center justify-content-center">
 							<span class="flaticon-ideas"></span>
